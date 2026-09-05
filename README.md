@@ -1,12 +1,12 @@
-# minitorch
-The full minitorch student suite. 
+# Инсрукция по установке и проверке
 
+В работе выполненны модули module-0 и module-1.
 
-To access the autograder: 
+Проверялось на версии питона Python 3.10.21.
 
-* Module 0: https://classroom.github.com/a/qDYKZff9
-* Module 1: https://classroom.github.com/a/6TiImUiy
-* Module 2: https://classroom.github.com/a/0ZHJeTA0
-* Module 3: https://classroom.github.com/a/U5CMJec1
-* Module 4: https://classroom.github.com/a/04QA6HZK
-* Quizzes: https://classroom.github.com/a/bGcGc12k
+После перехода в видректорю репы, нужно сделать установку библиотек, после проверьте по интсукции снизу:
+
+```bash
+python3 -m pip install -r requirements.txt
+pytest tests/test_{operators,module,scalar,autodiff}.py -v
+```
